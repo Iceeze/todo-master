@@ -1,0 +1,27 @@
+.custom-header {
+    color: #17a2b8;
+}
+.custom-btn {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+.custom-btn:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+.custom-complete {
+    background-color: #0fc26f;
+}
+
+.custom-complete:hover {
+    background-color: #0db567;
+}
+
+.custom-complete-important {
+    background-color: #0fc26f;
+}
+
+.custom-complete-important:hover {
+    background-color: #f1b0b7;
+}

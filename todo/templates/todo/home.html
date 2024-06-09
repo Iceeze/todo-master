@@ -1,0 +1,19 @@
+{% extends "todo/base.html" %}
+{% load static %}
+
+{% block content %}
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="row justify-content-center mt-5">
+    <div class="col-md-7 text-center">
+        <h1 class="display-4 custom-header">Todo Manager</h1>
+        <p><b><i>Todo Manager</i></b> улучшает жизнь! С помощью этого веб-приложения вы сможете правильно распределять свои задачи на день, не забывая сделать важные дела. <b><u>Присоединяйтесь к нам!</u></b></p>
+        <a role="button" class="btn btn-primary btn-lg custom-btn" href="{% url 'signupuser' %}">Начать</a>
+    </div>
+</div>
+
+{% endblock %}
